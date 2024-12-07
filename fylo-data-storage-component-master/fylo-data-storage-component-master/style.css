@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a0440;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #322c68;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+.storage-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.storage-bar .used {
+    background-color: #ff6464;
+    height: 100%;
+    width: 81.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.storage-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.storage-info .left {
+    font-weight: bold;
+}
+/* sm */
+@media (max-width:550px) {
+    .container {
+        width: 90%;
+    }
+}

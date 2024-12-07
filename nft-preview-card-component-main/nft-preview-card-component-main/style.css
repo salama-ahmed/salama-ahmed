@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d192b;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Card Styles */
+.card {
+    background-color: #14253d;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Image */
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Title */
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.card-description {
+    font-size: 14px;
+    color: #3060a4;
+    margin-bottom: 20px;
+}
+
+/* Info Section */
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.card-info .price img {
+    margin-right: 5px;
+}
+
+.card-info .time-left {
+    color: #3362a4;
+}
+
+/* Creator Section */
+.creator {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.creator-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* sm */
+@media (max-width:550px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
